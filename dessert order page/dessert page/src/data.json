@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Waffle with Berries",
+      "price": 6.5,
+      "category": "Waffle",
+      "image": "waffle.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Vanilla Bean Crème Brûlée",
+      "price": 7.0,
+      "category": "Crème Brûlée",
+      "image": "creme_brulee.jpg"
+    },
+    {
+        "id": 3,
+      "name": "Waffle with Berries",
+      "price": 6.5,
+      "category": "Waffle",
+      "image": "waffle.jpg"
+    }
+]
+  

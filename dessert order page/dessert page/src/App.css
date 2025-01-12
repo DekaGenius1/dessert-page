@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.desserts-list {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.cart {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.dessert {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.dessert img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dessert.in-cart {
+  border-color: red;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .cart {
+    max-width: 100%;
+  }
+}
